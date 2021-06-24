@@ -235,7 +235,7 @@ h3 {
 .container .card {
   position: relative;
   width: 300px;
-  height: 420px;
+  height: 350px;
   background: #fff;
   margin: 20px;
   border-radius: 20px;
@@ -266,10 +266,13 @@ h3 {
 }
 
 .container .card .content {
+  box-sizing: border-box;
+  min-width: 100%;
   position: absolute;
   bottom: 10px;
-  padding: 20px;
+  padding: 5px;
   text-align: center;
+  align-items: center;
 }
 
 .container .card .content p {
@@ -285,13 +288,23 @@ h3 {
   border-radius: 15px;
   text-decoration: none;
   margin-top: 20px;
+  font-weight: var(--fw-bold);
 }
+
 /* Footer */
 .fa-linkedin-square,
 .fa-github,
 .fa-envelope {
   color: var(--clr-light);
   font-size: 50px;
+  transition: 0.5s;
+}
+
+.fa-linkedin-square:hover,
+.fa-github:hover,
+.fa-envelope:hover {
+  transform: scale(1.5);
+  opacity: 1;
 }
 .social-list__link {
   display: flex;
