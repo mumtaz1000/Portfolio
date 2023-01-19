@@ -31,7 +31,7 @@
       })(window,document,'script','dataLayer','GTM-KZ6QG5B');</script>
     <!-- End Google Tag Manager -->
   </head>
-  <body id="element">
+  <body>
     <!-- Google Tag Manager (noscript) -->
       <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZ6QG5B"
@@ -39,7 +39,7 @@
         </iframe>
       </noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <header class="main-header">
+    <header class="main-header" id="element">
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
@@ -181,11 +181,11 @@
     </footer>
   </body>
     
-<script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.1/html2pdf.bundle.min.js"></script>
+    <script>
   let element = document.getElementById('element')
   html2pdf(element)
 </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.1/html2pdf.bundle.min.js"></script>
 
 </html>
