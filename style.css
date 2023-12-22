@@ -49,7 +49,7 @@ footer {
   padding: 5em 2em;
 }
 
-img {
+.intro__img {
   display: block;
   max-width: 100%;
   border-radius: 50%;
@@ -214,6 +214,29 @@ h3 {
   }
 }
 
+/* Companies */
+.companies-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nwt, 
+.novare, 
+.tietoevry, 
+.ecombooster{
+  flex: 1;
+  background-color: #b30047;
+  width: 120px;
+}
+
+.nwt img,
+.novare img,
+.tietoevry img,
+.ecombooster img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 /* My Work */
 #work {
   display: flex;
