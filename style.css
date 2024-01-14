@@ -224,7 +224,7 @@ h3 {
 .novare, 
 .tietoevry, 
 .ecombooster{
-  flex: 1;
+  flex: 1 ;
   background-color: #b30047;
   width: 120px;
 }
