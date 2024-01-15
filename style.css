@@ -380,7 +380,8 @@ article .icon {
 
 /* COMPANIES */
 #companies {
-  height: 30vh;
+  height: 50vh;
+  margin-top: 1.5rem;
 }
 
 /* CONTACT */
