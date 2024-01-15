@@ -161,7 +161,6 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
   margin: 0 5rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -320,7 +319,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: var(--color-medium);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -379,42 +378,18 @@ article .icon {
   border-color: var(--color-accent-dark);
 }
 
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
+/* COMPANIES */
+#companies {
+  height: 30vh;
 }
 
-.price {
-  color: grey;
-  font-size: 22px;
-}
-
-.card button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.card button:hover {
-  opacity: 0.7;
-}
 /* CONTACT */
 
 #contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 50vh;
 }
 
 .contact-info-upper-container {
