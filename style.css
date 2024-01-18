@@ -160,8 +160,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  margin: 0 5rem;
+  margin: 1rem 5rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -176,7 +175,6 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
 }
 
 .section__pic-container {
@@ -390,7 +388,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 50vh;
+  margin-top: 1.5rem;
 }
 
 .contact-info-upper-container {
