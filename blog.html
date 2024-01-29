@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Mumtaz Fatima</div>
+        <!--<div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>-->
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Mumtaz Fatima</div>
+        <!--<div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>-->
+    </nav>
+    <section id="profile">
+        <img class="profile-img" src="assets/profile-pic.jpg" alt="Mumtaz Profile Picture">
+        <h3>Mumtaz Fatima</h3>
+        <h5>Fullstack Web Deeloper</h5>
+        <p>I am a full stack web developer with genuine interest in diverse technologies.</p>
+        <div style="display: flex; justify-content: space-around;margin: 15px auto;">
+            <i class="fa fa-envelope" style="font-size:25px;"></i>
+            <i class="fa fa-github" style="font-size:25px;"
+                onclick="location.href='https://github.com/mumtaz1000?tab=repositories'"></i>
+            <i class="fa fa-linkedin" style="font-size:25px;"
+                onclick="location.href='https://www.linkedin.com/in/mumtaz-fatima/'"></i>
+        </div>
+        <button class="btn" onclick="window.open('./assets/mumtaz_cv.pdf')">Download CV</button>
+    </section>
+    <section id="main">
+        <section id="experience">
+            <h2>Experience</h2>
+            <h3>2+ YEARS</h3>
+            Frontend Development - UI/UX Design
+            <h3>5 Months</h3>
+            Fullstack Development - Java/React/Tyepscript
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <span style="display: flex; justify-content: space-between;
+                ">
+                    <h3>Ecombooster AB</h3>
+                    <button class="btn" onclick="location.href='https://www.ecombooster.se/'">
+                        Live Demo
+                    </button>
+                </span>
+                Worked as a <strong>Frontend developer</strong>
+                to create ecombooster admin panel and create
+                functionalities to enable customers to do more of
+                the onboarding flow on their own (configuration)
+                instead of it requiring adaptations created by the
+                team by using modern technology and
+                frameworks like <strong>React</strong>, <strong>TypeScript</strong>,
+                <strong>Material UI</strong>, <strong>Redux</strong>,
+                <strong>AWS</strong> and <strong>Bitbucket</strong>.
+            </article>
+            <br />
+            <article>
+                <h3>Novare Potential AB</h3>
+                Worked as <strong>software developer consultant</strong>
+                on different
+                type of projects. The main technologies were:
+                <br />
+                <strong>• Frontend: </strong>
+                Typescript and React, Rest Apis
+                <br />
+                <strong>• Backend:</strong>
+                Java 11+, Springboot, and
+                Microservices, Maven.
+                <br />
+                <strong>• Testing:</strong>
+                Junit testing, React testing Library
+                and Jest.
+                <br />
+                <strong>• Version control: </strong>
+                Github.
+                <br />
+                <strong>• Cloud/Devops/Container: </strong>
+                Docker, AWS, Linux and Bash scripting.
+                <br />
+                <strong>• Telecom industry: </strong>
+                Basic leve of
+                understanding in telecom (IPV4, IPV6 etc)
+                <br />
+            </article>
+            <br />
+            <article>
+                <span style="display: flex; justify-content: space-between;
+                ">
+                    <h3>Nordic Web Team</h3>
+                    <button class="btn" onclick="location.href='https://nordicwebteam.com/'">
+                        Live Demo
+                    </button>
+                </span>
+                • Created a <strong>PWA Studio extension </strong>for
+                <strong>magento2 frontend </strong>
+                and have successfully
+                <strong>integrated PWA studio</strong> with
+                <strong>google tag manager</strong>
+                and <strong>google analytics</strong>
+                to enhance e-commerce. It
+                also includes creating <strong>npm packages</strong>,
+                connecting frontend with magento backend by
+                using <strong>Graphql</strong> and creating a small online shop
+                in <strong>magento 2</strong>.
+                <br />
+                • Worked as a <strong>frontend developer</strong> with new
+                technologies and frameworks like <strong>vue.js</strong>,
+                <strong>nuxt.js</strong>, <strong>tailwind css</strong> and
+                <strong>storyblok</strong> as headless
+                cms and created a multi-language website for
+                the company.
+            </article>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <h3>Fullstack Web Development in E-commerce</h3>
+            Medieinstitutet - 2 years YH Course
+            <h3>Bsc in Electrical Computer Engineering</h3>
+            COMSATS - 4 years University Course
+
+
+        </section>
+    </section>
+    <footer>
+        Copyright &#169; 2024 Mumtaz Fatima. All Rights Reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
