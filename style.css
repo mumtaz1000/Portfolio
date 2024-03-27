@@ -275,5 +275,5 @@ i:hover {
 footer {
   grid-area: footer;
   text-align: center;
-  color: var(--color-dark);
+  color: var(--color-light);
 }
