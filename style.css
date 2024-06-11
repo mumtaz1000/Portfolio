@@ -41,11 +41,10 @@ body {
   font-size: var(--fs-body);
   display: grid;
   grid-template-areas: 
-  'navbar navbar'
   'profile main'
   'footer footer';
   grid-gap: 5px;
-  grid-template-rows: 10% 1fr 2%;
+  grid-template-rows: 1fr 2%;
   grid-template-columns: 25% 1fr;
 }
 
@@ -58,11 +57,11 @@ h2 {
 }
 
 h5 {
-  color: var(--color-medium);
+  color: var(--color-accent-light);
 }
 
 p {
-  color: var(--color-accent-light);
+  color: var(--color-light);
 }
 
 strong {

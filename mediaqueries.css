@@ -10,11 +10,10 @@
   @media only screen and (max-width: 880px) {
     body {
       grid-template-areas: 
-      'navbar'
       'profile'
       'main'
       'footer';
-      grid-template-rows: 10% 30% 1fr 2%;
+      grid-template-rows: 30% 1fr 2%;
       grid-template-columns: 1fr;
       align-items: center;
     
